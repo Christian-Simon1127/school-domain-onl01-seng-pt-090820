@@ -20,7 +20,12 @@ class School
   
   def sort
     @roster.map { |grade, people|
+<<<<<<< HEAD
       people.sort!
+=======
+     # grade.sort
+      people.sort
+>>>>>>> e172a251ec797ca4c40c6067b5798b0dd2f4335e
     }
     @roster
   end
